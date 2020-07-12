@@ -23,6 +23,8 @@ Hello this is practice for git version control locally.
    to add multiple files use the command as usual >> git add <file1> <file2>
    to add all the files in the current working directory to staging area use >> git add .
 
+   use this command to unstage a file >> git restore --staged <file>
+
 7) you can check status after adding files to staging area by same command as in step 5 >> git status
 
 8) the command for committing files in staging area is >> git commit -m "First Commit/Initial Commit or Complete file x"
