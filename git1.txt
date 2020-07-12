@@ -1,6 +1,6 @@
 Hello this is practice for git version control locally.
 
-///////Git using Command Line//////////
+///////Git "LOCAL" repository using Command Line//////////
 
 1) cd into project folder before any git Commands.
 
