@@ -24,7 +24,9 @@ Hello this is practice for git version control locally.
    to add all the files in the current working directory to staging area use >> git add .
 
    use this command to unstage a file >> git restore --staged <file>
-
+  NOTE: to remove files from staging area >> git rm --cached r ."
+        rm stands for remove and r flag for recursive and "." for every file in the staging area.
+        
 7) you can check status after adding files to staging area by same command as in step 5 >> git status
 
 8) the command for committing files in staging area is >> git commit -m "First Commit/Initial Commit or Complete file x"

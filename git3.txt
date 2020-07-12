@@ -1,1 +1,23 @@
 this is 3rd file for git version control for practice.
+
+//////////gitignore using command line/////////
+
+say if you have files with secret passwords or API keys basically the stuff that you don't want to be hosted in an open platform like github.
+there are horror stories of people having their aws secret keys in their project and that getting pushed on remote on github and within seconds their aws accout have been used up and wiped clean.
+so its really really important to be aware of what you are putting on to this public platform.
+
+and another files that you don't want to push are files that are settings or utility files or project settings files that you don't want another person downloading and cloning, you don't want to clutter their folders with these
+our github or any others computer with these files.
+
+1) create file called ".gitignore" the case and wording makes a huge deal so it should look exactly like this
+
+2)git init to initialize git local repository.
+
+3)now open .gitignore and add files names that we want to be ignored when we re adding and committing to git.
+  so in order to add individual files you can simply specify the file name on each and every new line
+
+  NOTE: now with gitignore there are certain rules you can use "#" sign for comment eg: #Pod Files
+  and another things you can use is wild cards such as "*.txt" which means all of the files with .txt will be ignored from  add and commits.
+
+4)Now once all he files that need to be ignored are added to the file ".gitignore" we can say >>git add .
+  to add all files to staging area except the files mentioned in gitignore will not be added to staging area.
