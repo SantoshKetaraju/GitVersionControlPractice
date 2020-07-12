@@ -15,3 +15,9 @@ This is 2nd file for version control practice.
 5) now we can push our local repository to remote using command >> git push -u origin master
    this pushes your local repository to the remote repository using "u" flag which basically links up your local and remote repository. origin is name of the remote. master is name of the branch.
    the master branch is the default branch or the min branch
+
+
+/////to update local repo nd push it to remote//////
+
+1)Make edits, save, git add, and git commit all in your local repo.
+2)Push changes from local repo to your fork on github.com (git push origin master)
