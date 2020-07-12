@@ -1,1 +1,17 @@
 This is 2nd file for version control practice.
+
+/////////push an existing repository using command line to github////////////
+
+1) login to github
+
+2) create new repository.(untick initialize this repository with readme)
+
+3) copy the address of the github repository (https://github.com/SantoshKetaraju/GitVersionControlPractice.git)
+
+4) to push the latest commits from local repository to remote repository we've created use command >> git remote add origin <url>(https://github.com/SantoshKetaraju/GitVersionControlPractice)
+   now origin is simple the name of the remote, you can theoretically call it whatever you want, but by convention and its highly recommended that you simple keep the name origin. since most
+   programmers are used to conventional naming.
+
+5) now we can push our local repository to remote using command >> git push -u origin master
+   this pushes your local repository to the remote repository using "u" flag which basically links up your local and remote repository. origin is name of the remote. master is name of the branch.
+   the master branch is the default branch or the min branch
