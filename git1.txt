@@ -1,1 +1,41 @@
 Hello this is practice for git version control locally.
+
+///////Git using Command Line//////////
+
+1) cd into project folder before any git Commands.
+
+2) Now create a git local repository.
+
+3) To initialize git enter command >> git init
+   this initializes an empty git repository.
+
+   you can try "ls -a" command to see the hidden file ".git"
+
+4) add the necessary files to what's called a "staging area" which is an intermediate stage where you can pick and choose which files in your working directory that you want to commit.
+
+5) so to see what's currently in your staging area use command >> git status
+
+   the files that are in red are those files which are in the current working directory but not yet in the staging area i.e. untracked by git.
+   and the files which are green are the files add to staging are that will be tracked by git after commit.
+   this command also c=shows if and any changes have been made to files that have not yet been committed or added to staging area.
+
+6) now to add files in to staging area use command as follows >> git add <file>
+   to add multiple files use the command as usual >> git add <file1> <file2>
+   to add all the files in the current working directory to staging area use >> git add .
+
+7) you can check status after adding files to staging area by same command as in step 5 >> git status
+
+8) the command for committing files in staging area is >> git commit -m "First Commit/Initial Commit or Complete file x"
+
+   the -m flag is to add a commit message. commit message is very important which keeps track of what changes you have made in each commit
+   you want to be as explicit as possible about what changes were made between the last save point and the current save point.
+   usually the commit messages are written in present tense as part of good convention.
+   git commit command pushes the files from staging area to local repository.
+
+9) to see what commits you have made use command >> git log
+   this will show that a particular commit was made at a certain time by a certain person along with the commit message assigned to that respective commit.
+
+10) we can use a git command to check the changes between the current version of file and last save point of the file >> git diff <file>
+    this will show the changes made to the file compared to last save point
+
+11) to restore the file to last save point use command >> git restore <file> or git checkout <file>
