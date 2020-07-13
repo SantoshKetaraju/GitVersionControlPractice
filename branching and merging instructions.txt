@@ -1,0 +1,20 @@
+this is 4th file for git version control practice
+
+/////////Branching and Merging/////////
+
+to tryout something different like building a new feature or messing with new idea, so what we can do is instead of continuing to commit to master branch or main branch we can create a new branch
+an experimenting branch on which we can try out new code or features and simultaneously we can continue working on main branch providing the essential update or bit of code on the main project but
+at the same time we can workout on this experimental branch.
+so now we have 2 branches that are parallel to each other and they can developed simultaneously and in the future if we decide that  experiment was fruitful and the feature we decided
+was really great and wed like to merge it to the main project then we can do it easily.
+
+1) to create new branch use command >> git branch <branch name>
+
+2) to checkout what branches you have you can say >> git branch
+  you will see all the branches and the branch which has asterisk before it is the branch where you are on
+
+3)to switch to a branch use command >> git checkout <branch name>
+
+4)to merge the branch with master branch, first switch to master branch >> git checkout master
+
+5)
